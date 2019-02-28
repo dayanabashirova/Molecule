@@ -25,7 +25,194 @@ class GroupXVIII:
 
 
 class He(Element, PeriodI, GroupXVIII):
-    pass
+
+    @property
+    def atomic_number(self):
+        return 2
+
+    @property
+    def atomic_mass(self):
+        return 4.0026
+
+    @property
+    def electronegativity(self):
+        return 4.5
+
+    @property
+    def max_multiplicity(self):
+        return 1
+
+    @property
+    def min_charge(self):
+        return 0
+
+    @property
+    def max_charge(self):
+        return 1
+
+    @property
+    def common_isotope(self):
+        return 4
+
+    @property
+    def max_isotope(self):
+        return 10
+
+    @property
+    def min_isotope(self):
+        return 2
+
+    @property
+    def common_valences(self):
+        return ((0, 1))
+
+    @property
+    def valences_exeptions(self):
+        return ()
+
+
+
+class Ne(Element, PeriodI, GroupXVIII):
+
+    @property
+    def atomic_number(self):
+        return 10
+
+    @property
+    def atomic_mass(self):
+        return 20.1797
+
+    @property
+    def electronegativity(self):
+        return 4.4
+
+    @property
+    def max_multiplicity(self):
+        return 1
+
+    @property
+    def min_charge(self):
+        return 0
+
+    @property
+    def max_charge(self):
+        return 1
+
+    @property
+    def common_isotope(self):
+        return 20
+
+    @property
+    def max_isotope(self):
+        return 34
+
+    @property
+    def min_isotope(self):
+        return 16
+
+    @property
+    def common_valences(self):
+        return ((0, 1))
+
+    @property
+    def valences_exeptions(self):
+        return ()
+
+
+
+class Ar(Element, PeriodI, GroupXVIII):
+
+    @property
+    def atomic_number(self):
+        return 18
+
+    @property
+    def atomic_mass(self):
+        return 39.948
+
+    @property
+    def electronegativity(self):
+        return 4.3
+
+    @property
+    def max_multiplicity(self):
+        return 1
+
+    @property
+    def min_charge(self):
+        return 0
+
+    @property
+    def max_charge(self):
+        return 1
+
+    @property
+    def common_isotope(self):
+        return 40
+
+    @property
+    def max_isotope(self):
+        return 53
+
+    @property
+    def min_isotope(self):
+        return 30
+
+    @property
+    def common_valences(self):
+        return ((0, 1))
+
+    @property
+    def valences_exeptions(self):
+        return ()
+
+
+
+class Kr(Element, PeriodI, GroupXVIII):
+
+    @property
+    def atomic_number(self):
+        return 36
+
+    @property
+    def atomic_mass(self):
+        return 83.798
+
+    @property
+    def electronegativity(self):
+        return 3.0
+
+    @property
+    def max_multiplicity(self):
+        return 1
+
+    @property
+    def min_charge(self):
+        return 0
+
+    @property
+    def max_charge(self):
+        return 1
+
+    @property
+    def common_isotope(self):
+        return 84
+
+    @property
+    def max_isotope(self):
+        return 101
+
+    @property
+    def min_isotope(self):
+        return 69
+
+    @property
+    def common_valences(self):
+        return ((0, 1))
+
+    @property
+    def valences_exeptions(self):
+        return ()
 
 
 __all__ = ['GroupXVIII', 'He']
