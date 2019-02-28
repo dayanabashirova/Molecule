@@ -52,7 +52,7 @@ class H(Element, PeriodI, GroupI):
 
     @property
     def common_valences(self):
-        return ((0, 2), (1, 1))
+        return (0, 2), (1, 1)
 
     @property
     def valences_exeptions(self):
@@ -88,7 +88,7 @@ class Li(Element, PeriodI, GroupI):
 
     @property
     def common_valences(self):
-        return ((0, 1), (1, 1))
+        return (0, 1), (1, 1)
 
     @property
     def valences_exeptions(self):
@@ -124,7 +124,7 @@ class Na(Element, PeriodI, GroupI):
 
     @property
     def common_valences(self):
-        return ((0, 1), (1, 1))
+        return (0, 1), (1, 1)
 
     @property
     def valences_exeptions(self):
@@ -160,7 +160,7 @@ class K(Element, PeriodI, GroupI):
 
     @property
     def common_valences(self):
-        return ((0, 1), (1, 1))
+        return (0, 1), (1, 1)
 
     @property
     def valences_exeptions(self):
@@ -196,7 +196,7 @@ class Rb(Element, PeriodI, GroupI):
 
     @property
     def common_valences(self):
-        return ((0, 1), (1, 1))
+        return (0, 1), (1, 1)
 
     @property
     def valences_exeptions(self):
@@ -232,7 +232,7 @@ class Cs(Element, PeriodI, GroupI):
 
     @property
     def common_valences(self):
-        return ((0, 1), (1, 1))
+        return (0, 1), (1, 1)
 
     @property
     def valences_exeptions(self):
@@ -268,7 +268,7 @@ class Fr(Element, PeriodI, GroupI):
 
     @property
     def common_valences(self):
-        return ((0, 1), (1, 1))
+        return (0, 1), (1, 1)
 
     @property
     def valences_exeptions(self):
