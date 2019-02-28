@@ -39,18 +39,6 @@ class Be(Element, PeriodII, GroupII):
         return 1.57
 
     @property
-    def max_multiplicity(self):
-        return 1
-
-    @property
-    def min_charge(self):
-        return 0
-
-    @property
-    def max_charge(self):
-        return 1
-
-    @property
     def common_isotope(self):
         return 9
 
@@ -85,18 +73,6 @@ class Mg(Element, PeriodII, GroupII):
     @property
     def electronegativity(self):
         return 1.31
-
-    @property
-    def max_multiplicity(self):
-        return 1
-
-    @property
-    def min_charge(self):
-        return 0
-
-    @property
-    def max_charge(self):
-        return 1
 
     @property
     def common_isotope(self):
@@ -135,18 +111,6 @@ class Ca(Element, PeriodII, GroupII):
         return 1.00
 
     @property
-    def max_multiplicity(self):
-        return 1
-
-    @property
-    def min_charge(self):
-        return 0
-
-    @property
-    def max_charge(self):
-        return 1
-
-    @property
     def common_isotope(self):
         return 40
 
@@ -181,18 +145,6 @@ class Sr(Element, PeriodII, GroupII):
     @property
     def electronegativity(self):
         return 0.95
-
-    @property
-    def max_multiplicity(self):
-        return 1
-
-    @property
-    def min_charge(self):
-        return 0
-
-    @property
-    def max_charge(self):
-        return 1
 
     @property
     def common_isotope(self):
