@@ -262,4 +262,4 @@ class Fr(Element, PeriodI, GroupI):
         return ()
 
 
-__all__ = ['GroupI', 'H']
+__all__ = ['GroupI', 'H', 'Li', 'Na', 'K', 'Rb', 'Cs', 'Fr']
