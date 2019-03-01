@@ -25,7 +25,6 @@ class GroupI:
 
 
 class H(Element, PeriodI, GroupI):
-
     @property
     def atomic_number(self):
         return 1
@@ -59,9 +58,7 @@ class H(Element, PeriodI, GroupI):
         return ()
 
 
-
 class Li(Element, PeriodI, GroupI):
-
     @property
     def atomic_number(self):
         return 3
@@ -95,9 +92,7 @@ class Li(Element, PeriodI, GroupI):
         return ()
 
 
-
 class Na(Element, PeriodI, GroupI):
-
     @property
     def atomic_number(self):
         return 11
@@ -131,9 +126,7 @@ class Na(Element, PeriodI, GroupI):
         return ()
 
 
-
 class K(Element, PeriodI, GroupI):
-
     @property
     def atomic_number(self):
         return 19
@@ -167,9 +160,7 @@ class K(Element, PeriodI, GroupI):
         return ()
 
 
-
 class Rb(Element, PeriodI, GroupI):
-
     @property
     def atomic_number(self):
         return 37
@@ -203,9 +194,7 @@ class Rb(Element, PeriodI, GroupI):
         return ()
 
 
-
 class Cs(Element, PeriodI, GroupI):
-
     @property
     def atomic_number(self):
         return 55
@@ -239,9 +228,7 @@ class Cs(Element, PeriodI, GroupI):
         return ()
 
 
-
 class Fr(Element, PeriodI, GroupI):
-
     @property
     def atomic_number(self):
         return 87
