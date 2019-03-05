@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 #
 #  Copyright 2019 Ramil Nugmanov <stsouko@live.ru>
+#  Copyright 2019 Dayana Bashirova <dayana.bashirova@yandex.ru>
 #  This file is part of Molecule.
 #
 #  Molecule is free software; you can redistribute it and/or modify
