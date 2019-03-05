@@ -56,7 +56,9 @@ class O(Element, PeriodI, GroupXVI):
 
     @property
     def valences_exceptions(self):
-        return ((0, 1, ((2, 'O'), (1, 'O')), (0, 2, (1, 'O')), (-1, 2, (1, '0')))
+        return ((0, 2, (1, 'H')), (0, 2, (1, 'N')), (0, 2, (1, 'O')), (-1, 2, (1, 'H')), (-1, 2, (1, 'O')))
+
+            #(0, 1, ((2, 'O'), (1, 'O')), (0, 2, (1, 'O')), (-1, 2, (1, '0')))
 
 
 class S(Element, PeriodII, GroupXVI):
