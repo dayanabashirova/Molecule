@@ -28,9 +28,9 @@ class Graph(Components, MCS):
         if number is None:
             number = max(self._atoms, default=0) + 1
         elif not isinstance(number, int):
-            raise TypeError('integer required')
+            raise TypeError('Integer required')
         elif number in self._atoms:
-            raise ValueError('number already exists')
+            raise ValueError('Number already exists')
 
         self._atoms[number] = atom
         self._bonds[number] = {}
@@ -39,7 +39,7 @@ class Graph(Components, MCS):
     def add_bond(self, num1, num2, bond):
         try:
             if num1 not in self._atoms or num2 not in self._atoms:
-                raise ValueError('number does not exists')
+                raise ValueError('Number does not exists')
         except TypeError:
-            raise ValueError('integer required')
+            raise ValueError('Integer required')
         self._bonds[num1][num2] = self._bonds[num2][num1] = bond
