@@ -25,7 +25,7 @@ class GroupXVI:
     pass
 
 
-class O(Element, PeriodI, GroupXVI):
+class O2(Element, PeriodI, GroupXVI):
     @property
     def atomic_number(self):
         return 8
@@ -52,11 +52,11 @@ class O(Element, PeriodI, GroupXVI):
 
     @property
     def common_valences(self):
-        return (2, 3),
+        return (2, 1),
 
     @property
     def valences_exceptions(self):
-        return ((0, 2, ((1, 'H'),)), (0, 2, ((1, 'N'),)), (0, 2, ((1, 'O'),)), (-1, 2, ((1, 'H'),)), (-1, 2, ((1, 'O'),)),
+        return ((0, 2, ((1, 'H'),)), (0, 2, ((1, 'N'),)), (0, 2, ((1, 'O'),)), (-1, 1, ((1, 'H'),)), (-1, 1, ((1, 'O'),)),
                ((-1, 2, ((1, 'S'),)), (-1, 2, ((1, 'Se'),)), (-1, 2, ((1, 'C'),))))
     # First three tuples are exceptions when oxygen is radical, for example: hydroxyl radical or ozone
     # Other are examples of oxygen anion for example in acids or ozone
@@ -131,5 +131,3 @@ class Se(Element, PeriodIII, GroupXVI):
 
 
 __all__ = ['GroupXVI', 'O', 'S', 'Se']
-
-
