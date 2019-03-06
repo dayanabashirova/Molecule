@@ -58,8 +58,8 @@ class O(Element, PeriodI, GroupXVI):
     def valences_exceptions(self):
         return ((0, 2, (1, 'H')), (0, 2, (1, 'N')), (0, 2, (1, 'O')), (-1, 2, (1, 'H')), (-1, 2, (1, 'O')),
                ((-1, 2, (1, 'S')), (-1, 2, (1, 'Se')), (-1, 2, (1, 'C'))))
-    # first three tuples are exceptions when oxygen is radical, for example: hydroxyl radical or ozone
-    # other are examples of oxygen anion for example in acids or ozone
+    # First three tuples are exceptions when oxygen is radical, for example: hydroxyl radical or ozone
+    # Other are examples of oxygen anion for example in acids or ozone
 
 
 class S(Element, PeriodII, GroupXVI):
