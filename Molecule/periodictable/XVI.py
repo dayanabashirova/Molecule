@@ -93,7 +93,8 @@ class S(Element, PeriodII, GroupXVI):
 
     @property
     def valences_exceptions(self):
-        return ()
+        return ((-1, 1, ((2, 'O'), (2, 'O'), (1, 'O'))), (-1, 1, ((2, 'O'), (2, 'O'), (1, 'S'))),
+                (-1, 1, ((2, 'O'), (2, 'O'), (1, 'C'))))
 
 
 class Se(Element, PeriodIII, GroupXVI):
