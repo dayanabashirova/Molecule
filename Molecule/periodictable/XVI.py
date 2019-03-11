@@ -44,11 +44,11 @@ class O(Element, PeriodII, GroupXVI):
 
     @property
     def max_isotope(self):
-        return 28
+        return 18
 
     @property
     def min_isotope(self):
-        return 12
+        return 16
 
     @property
     def common_valences(self):
@@ -82,11 +82,11 @@ class S(Element, PeriodIII, GroupXVI):
 
     @property
     def max_isotope(self):
-        return 49
+        return 36
 
     @property
     def min_isotope(self):
-        return 26
+        return 32
 
     @property
     def common_valences(self):
@@ -117,11 +117,11 @@ class Se(Element, PeriodIV, GroupXVI):
 
     @property
     def max_isotope(self):
-        return 95
+        return 82
 
     @property
     def min_isotope(self):
-        return 64
+        return 72
 
     @property
     def common_valences(self):
