@@ -56,7 +56,8 @@ class Sn(Element, PeriodV, GroupXIV):
 
     @property
     def valences_exceptions(self):
-        return ()
+        return ((-2, 1, ((1, 'O'), (1, 'O'), (1, 'O'), (1, 'O'), (1, 'O'), (1, 'O'))),
+                (-4, 1, ((1, 'O'), (1, 'O'), (1, 'O'), (1, 'O'), (1, 'O'), (1, 'O'))))
 
 
 class Pb(Element, PeriodVI, GroupXIV):
@@ -90,7 +91,9 @@ class Pb(Element, PeriodVI, GroupXIV):
 
     @property
     def valences_exceptions(self):
-        return ()
+        return ((-2, 1, ((1, 'O'), (1, 'O'), (1, 'O'), (1, 'O'), (1, 'O'), (1, 'O'))),
+                (-4, 1, ((1, 'O'), (1, 'O'), (1, 'O'), (1, 'O'), (1, 'O'), (1, 'O'))),
+                (0, 2, ((1, 'C'), (1, 'C'), (1, 'C'))))
 
 
 class Fl(Element, PeriodVII, GroupXIV):
