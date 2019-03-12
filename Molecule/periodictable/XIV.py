@@ -108,19 +108,19 @@ class Fl(Element, PeriodVII, GroupXIV):
 
     @property
     def common_isotope(self):
-        return 120
+        return 289
 
     @property
     def max_isotope(self):
-        return 126
+        return 289
 
     @property
     def min_isotope(self):
-        return 112
+        return 289
 
     @property
     def common_valences(self):
-        return (0, 1), (2, 1), (4, 1)
+        return ()
 
     @property
     def valences_exceptions(self):
