@@ -56,7 +56,7 @@ class O(Element, PeriodII, GroupXVI):
 
     @property
     def valences_exceptions(self):
-        return ((0, 2, ((1, 'H'),)), (0, 2, ((1, 'N'),)), (0, 2, ((1, 'O'),)), (-2, 1, ((),)),
+        return ((0, 2, ((1, 'H'),)), (0, 2, ((1, 'N'),)), (0, 2, ((1, 'O'),)), (-2, 1, ),
                 (-1, 1, ((1, 'H'),)), (-1, 1, ((1, 'O'),)),
                ((-1, 1, ((1, 'S'),)), (-1, 1, ((1, 'Se'),)), (-1, 1, ((1, 'C'),))))
     # First three tuples are exceptions when oxygen is radical, for example: hydroxyl radical or ozone
@@ -95,7 +95,7 @@ class S(Element, PeriodIII, GroupXVI):
     @property
     def valences_exceptions(self):
         return ((-1, 1, ((2, 'O'), (2, 'O'), (1, 'O'))), (-1, 1, ((2, 'O'), (2, 'O'), (1, 'S'))),
-                (-1, 1, ((1, 'H'), )), (-2, 1, ((), )), (-1, 1, ((1, 'R'), )), (-1, 1, ((2, 'O'), (2, 'O'), (1, 'C'))))
+                (-1, 1, ((1, 'H'), )), (-2, 1, ), (-1, 1, ((1, 'R'), )), (-1, 1, ((2, 'O'), (2, 'O'), (1, 'C'))))
 
 
 class Se(Element, PeriodIV, GroupXVI):
