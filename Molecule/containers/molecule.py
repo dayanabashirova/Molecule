@@ -24,7 +24,7 @@ class Molecule(Graph):
     def check_valences(self) -> List[int]:
         """
         Checks atoms' valences
-        :return: numbers of atom with errors
+        :return: numbers of atom with error
         """
         for (n, atom), bonds in zip(self._atoms.items(), self._bonds.values()):
             valence = (sum([bonds.values()]), atom.multiplicity)
