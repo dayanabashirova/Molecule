@@ -28,7 +28,7 @@ class Molecule(Graph):
         """
         errors = []
         for (n, atom), bonds in zip(self._atoms.items(), self._bonds.values()):
-            valence = (sum([bonds.values()]), atom.multiplicity)
+            valence = (sum(bonds.values()), atom.multiplicity)
             if valence in atom.common_valences:
                 continue
             elif (atom.charge, atom.multiplicity,
