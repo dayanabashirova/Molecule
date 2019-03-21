@@ -2,6 +2,7 @@
 #
 #  Copyright 2019 Ramil Nugmanov <stsouko@live.ru>
 #  Copyright 2019 Tagir Akhmetshin <tagirshin@gmail.com>
+#  Copyright 2019 Dayana Bashirova <dayana.bashirova@yandex.ru>
 #  This file is part of Molecule.
 #
 #  Molecule is free software; you can redistribute it and/or modify
@@ -62,7 +63,7 @@ class Ni(Element, PeriodIV, GroupX):
                 (-1, 1, ((1, 'O'), (1, 'O'), (1, 'O'))),  # [Ni(NO3)3]-
                 (-4, 1, ((1, 'O'), (1, 'O'), (1, 'O'), (1, 'O'), (1, 'O'), (1, 'O'))),  # [Ni(NO2)6]4-
                 (-2, 1, ((1, 'C'), (1, 'C'), (1, 'C'), (1, 'C'))),  # [Ni(CN)4]2-
-                (-3, 1, ((1, 'C'), (1, 'C'), (1, 'C'), (1, 'C'), (1, 'C'), (1, 'C'))),  # [Ni(CN)5]3-
+                (-3, 1, ((1, 'C'), (1, 'C'), (1, 'C'), (1, 'C'), (1, 'C'))),  # [Ni(CN)5]3-
                 (-4, 1, ((1, 'N'), (1, 'N'), (1, 'N'), (1, 'N'), (1, 'N'), (1, 'N'))),  # [Ni(NCS)6]4-
                 (-4, 1, ((1, 'S'), (1, 'S'), (1, 'S'), (1, 'S'), (1, 'S'), (1, 'S'))),  # [Ni(SCN)6]4-
                 (-2, 1, ((1, 'N'), (1, 'N'), (1, 'N'), (1, 'N'))),  # [Ni(NCS)4]2-
