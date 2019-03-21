@@ -53,7 +53,7 @@ class Ni(Element, PeriodIV, GroupX):
 
     @property
     def common_valences(self):
-        return (0, 1), (2, 1)
+        return (0, 3), (2, 1)
 
     @property
     def valences_exceptions(self):
@@ -159,7 +159,15 @@ class Pt(Element, PeriodVI, GroupX):
                 (-1, 1, ((1, 'Cl'), (1, 'Cl'), (1, 'Cl'), (1, 'Cl'), (1, 'Cl'), (1, 'N'))),  # [Pt(NH3)Cl5]-
                 (-1, 1, ((1, 'Cl'), (1, 'Cl'), (1, 'Cl'), (1, 'N'))),  # [Pt(NH3)Cl3]-
                 (-2, 1, ((1, 'Cl'), (1, 'Cl'), (1, 'Cl'), (1, 'Cl'), (1, 'Cl'), (1, 'Cl'))),  # [PtCl6]2-
-                (-2, 1, ((1, 'I'), (1, 'I'), (1, 'I'), (1, 'I'), (1, 'I'), (1, 'I'))))  # [PdI6]2-
+                (-2, 1, ((1, 'I'), (1, 'I'), (1, 'I'), (1, 'I'), (1, 'I'), (1, 'I'))),  # [PdI6]2-
+                (0, 1, ((1, 'Cl'), (1, 'Cl'), (1, 'Cl'))),  # PtCl3
+                (0, 1, ((1, 'Br'),(1, 'Br'), (1, 'Br'))),  # PtBr3
+                (0, 1, ((1, 'I'), (1, 'I'), (1, 'I'))),  # PtI3
+                (0, 1, ((1, 'F'), (1, 'F'), (1, 'F'))),  # PtF3
+                (0, 1, ((2, 'O'), (1, 'O'))),  # Pt2O3
+                (0, 1, ((1, 'F'), (1, 'F'), (1, 'F'), (1, 'F'), (1, 'F'))),  # PtF5
+                (0, 1, ((1, 'F'), (1, 'F'), (1, 'F'), (1, 'F'), (1, 'F'), (1, 'F'))),  # PtF6
+                (0, 1, ((2, 'O'), (2, 'O'), (2, 'O'))))  # PtO3
 
 
 class Ds(Element, PeriodVII, GroupX):
