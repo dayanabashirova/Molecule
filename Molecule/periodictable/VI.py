@@ -53,13 +53,13 @@ class Cr(Element, PeriodIV, GroupVI):
 
     @property
     def common_valences(self):
-        return (0, 1), (2, 1), (3, 1), (6, 1)
+        return (0, 6), (2, 4), (3, 3), (6, 1)
 
     @property
     def valences_exceptions(self):
-        return ((0, 3, ((2, 'O'), (2, 'O'))),  # CrO2
-                (0, 1, ((1, 'F'), (1, 'F'), (1, 'F'), (1, 'F'))),  # CrF4
-                (0, 1, ((1, 'Cl'), (1, 'Cl'), (1, 'Cl'), (1, 'Cl'))),  # CrCl4
+        return ((0, 2, ((2, 'O'), (2, 'O'))),  # CrO2
+                (0, 2, ((1, 'F'), (1, 'F'), (1, 'F'), (1, 'F'))),  # CrF4
+                (0, 2, ((1, 'Cl'), (1, 'Cl'), (1, 'Cl'), (1, 'Cl'))),  # CrCl4
                 (-2, 1, ((1, 'C'), (1, 'C'), (1, 'C'), (1, 'C'), (1, 'C'))),  # [Cr(CO)5]2-
                 (-4, 1, ((1, 'C'), (1, 'C'), (1, 'C'), (1, 'C'), (1, 'C'), (1, 'C'))),  # [Cr(CN)6]4-
                 (-3, 1, ((1, 'C'), (1, 'C'), (1, 'C'), (1, 'C'), (1, 'C'), (1, 'C'))),  # [Cr(CN)6]3-
@@ -108,11 +108,11 @@ class Mo(Element, PeriodV, GroupVI):
 
     @property
     def common_valences(self):
-        return (0, 1), (3, 1), (4, 1), (5, 1), (6, 1)
+        return (0, 6), (3, 3), (4, 2), (5, 1), (6, 1)
 
     @property
     def valences_exceptions(self):
-        return ((0, 1, ((1, 'I'), (1, 'I'))),  # MoI2
+        return ((0, 4, ((1, 'I'), (1, 'I'))),  # MoI2
                 (-5, 1, ((1, 'C'), (1, 'C'), (1, 'C'), (1, 'C'), (1, 'C'), (1, 'C'), (1, 'C'))),  # [Mo(CN)7]5-
                 (-4, 1, ((1, 'C'), (1, 'C'), (1, 'C'), (1, 'C'), (1, 'C'), (1, 'C'))),  # [Mo(CN)6]4-
                 (-6, 1, ((1, 'C'), (1, 'C'), (1, 'C'), (1, 'C'), (1, 'C'), (1, 'C'), (1, 'C'), (1, 'C'))),  # [Mo(CN)8]6-
@@ -156,7 +156,7 @@ class W(Element, PeriodVI, GroupVI):
 
     @property
     def common_valences(self):
-        return (0, 1), (2, 1), (4, 1), (5, 1), (6, 1)
+        return (0, 6), (2, 4), (4, 2), (5, 1), (6, 1)
 
     @property
     def valences_exceptions(self):
